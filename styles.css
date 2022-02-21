@@ -16,6 +16,11 @@ body{
     background-color: var(--primary-color);
 }
 
+.nav-bar .input input{
+    padding: .25rem;
+    border: 3px solid var(--hover-effect);
+}
+
 .nav-bar *{
     margin: auto;
     gap: 1rem; 
@@ -167,12 +172,18 @@ footer{
     display: grid;;
 }
 
+footer a{
+    text-decoration: none;
+    color: var(--black);
+}
+
 .about > *,.rapid-links > *,.contact > * {
     padding: 0.25rem;
 }
 
 .socials a img {
-    width: 1.5rem;
+    width: 2rem;
+    padding: 0.5rem;
 }
 
 .brand-tag{
