@@ -1,0 +1,157 @@
+.product-container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.product-sidebar {
+    border-right: 1px solid var(--secondary-color);
+}
+
+.product-sidebar, .product-wrapper {
+    padding: 1rem 0;
+    overflow-y: auto;
+}
+
+.product-sidebar .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-container, .title {
+    padding: 0.75rem 2rem;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.filter-container .filter-title{
+    font-size: var(--heading-3);
+}
+
+
+.filter-container .filter-value {
+    padding: 0.5rem 0;
+    font-size: var(--heading-4);
+    color: var(--secondary-color);
+}
+
+.filter-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-price + input {
+    width: 100%;
+}
+
+.filter-category > *, .filter-rating > *, .filter-sort > * {
+    display: block;
+    padding: 0.25rem;
+}
+
+.product-wrapper{
+    padding: 1rem 2rem;
+}
+
+.product-sidebar .heading-3, .product-wrapper .heading-3 {
+    font-size: var(--heading-3);
+    font-weight: bold;
+}
+
+.products-menu{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1rem;
+}
+
+.card-component{
+    max-width: 350px;
+    height: max-content;
+}
+
+.card-wrapper {
+    border: 1px solid var(--primary-color);
+    background-color: inherit;
+    box-shadow:  2px 2px 5px 3px var(--off-white);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 1rem;
+    height: max-content;
+    border-radius: 0.25rem;
+}
+
+.products-menu > * {
+    margin: 0.5rem auto;
+}
+
+.card-w-dismiss > div {
+    position: relative;
+}
+
+.card-img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: auto;
+}
+
+.card-dismiss img{
+    height: 1.5rem;
+}
+
+.card-w-dismiss .card-dismiss {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.basic-card .card-heading {
+    font-size: 1rem;
+}
+
+.basic-card .card-heading, .basic-card .card-content {
+    padding: 0.5rem 0.5rem 0;
+}
+
+.product-price {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-content .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-content .previous-price {
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: var(--text-secondary);
+    text-decoration: line-through;
+}
+
+.card-content .discount {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--success-color);
+}
+
+.card-action {
+    padding: 0.75rem;
+}
+
+.card-action > button {
+    padding: 0.5rem;
+}
+
+.card-action button {
+    padding: 0.5rem;
+    margin: 0;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
