@@ -60,6 +60,10 @@ body a {
     text-align: center;
 }
 
+.nav-bar .brand-tag:hover{
+    color: var(--off-white);
+}
+
 .services-description .service{
     margin: 1rem 0;
     justify-content: center;
@@ -151,24 +155,35 @@ footer{
     padding: 2rem;
     margin-top: 4rem;
     display: grid;
+    gap: 1rem;
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: var(--off-white);
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .about{
-    display: grid;
+    display: grid;;
+}
+
+.about > *,.rapid-links > *,.contact > * {
+    padding: 0.25rem;
 }
 
 .socials a img {
     width: 1.5rem;
 }
 
+.brand-tag{
+    font-weight: bold;
+}
+
 .about .brand-tag{
-    padding-left: 0;
+    font-weight: bold;
+    margin-left: auto;
 }
 
 nav.bar a[brand-tag]:hover{
-    color: var(--white);
+    color: var(--off-white);
 }
