@@ -69,7 +69,7 @@
     height: max-content;
 }
 
-.card-wrapper {
+.card-container {
     border: 1px solid var(--primary-color);
     background-color: inherit;
     box-shadow:  2px 2px 5px 3px var(--off-white);
