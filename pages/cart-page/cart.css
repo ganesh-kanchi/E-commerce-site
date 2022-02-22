@@ -66,7 +66,7 @@ main{
   }
 
   .card-img{
-      border-radius: 0.25rem;
+      border-radius: 4px;
       height: auto;
   }
 
@@ -78,14 +78,14 @@ main{
 
   .cart-products .card-content {
     display: block;
-    padding: 0.5rem 0;
+    padding: 8px 0;
 }
 
 .cart-products input {
     width: 2rem;
     text-align: center;
     border: 2px solid var(--primary-color);
-    border-radius: 0.25rem;
+    border-radius: 4px;
 }
 
 .card-content .price {

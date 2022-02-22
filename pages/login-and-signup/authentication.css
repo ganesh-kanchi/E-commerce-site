@@ -38,7 +38,7 @@ body footer{
 .card-component {
     margin: auto;
     padding: 1rem;
-    max-width: 450px;
+    max-width: 28rem;
 }
 
 .login-section .input-label-pair {
