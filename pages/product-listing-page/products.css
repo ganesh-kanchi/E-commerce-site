@@ -67,23 +67,11 @@
 }
 
 .card-component{
+
     height: max-content;
     position: static;
     max-width: 22rem;
     height: max-content;
-}
-
-.card-container {
-    border: 1px solid var(--primary-color);
-    background-color: inherit;
-    box-shadow:  2px 2px 5px 3px var(--off-white);
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    max-width: 22rem;
-    margin: 1rem;
-    height: max-content;
-    border-radius: 4px;
 }
 
 .products-menu > * {
