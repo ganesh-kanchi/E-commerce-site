@@ -67,8 +67,11 @@
 }
 
 .card-component{
+
     height: max-content;
     position: static;
+    max-width: 22rem;
+    height: max-content;
 }
 
 .products-menu > * {
