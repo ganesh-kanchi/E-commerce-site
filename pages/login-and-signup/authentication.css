@@ -1,0 +1,113 @@
+@import url(https://lazylibrary.netlify.app/components.css);
+@import url(../../../styles.css);
+@import url(../product-listing-page/products.css);
+@import url(../wishlist-page/wishlist.css);
+@import url(../cart-page/cart.css);
+
+.login-section .card-component{
+    margin-top: 5vh;
+    width: fit-content;
+}
+
+body footer{
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.UI-Interaction .input-container{
+    padding: 1rem;
+    box-shadow: none;
+    margin: 0;
+    width: fit-content;
+}
+
+.UI-Interaction .input-container input{
+    border-color: var(--primary-color);
+    padding: 8px 0.75rem;
+    font-size: 1rem;
+}
+
+.UI-Interaction .input-container .input-label-pair{
+    margin-top: 8px;
+}
+
+.card-content .card-heading{
+    text-align: center;
+}
+
+.card-component {
+    margin: auto;
+    padding: 1rem;
+    max-width: 450px;
+}
+
+.login-section .input-label-pair {
+    margin: 8px 0;
+}
+
+.login-section .input-checkbox {
+    line-height: var(--line-height-5);
+}
+
+.input-label {
+    font-size: 1rem;
+    margin: 0.25rem 0;
+}
+
+.login-section label {
+    font-size: 1rem;
+    line-height: var(--line-height-5);
+}
+
+.card-action > * {
+    font-size: 0.9rem;
+}
+
+.remember-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-action {
+    padding: 0.75rem;
+}
+
+.card-action a.link-primary {
+    padding: 0 4px;
+}
+
+.login-section .input-checkbox label {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logout-section {
+    height: 50vh;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.logout-section .heading-3 {
+    text-align: center;
+}
+
+.logout-section .card-component {
+    text-align: center;
+}
+
+.card-component .card-icon img{
+    height: 4rem;
+    margin: auto;
+}
+
+.card-component .card-icon{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
