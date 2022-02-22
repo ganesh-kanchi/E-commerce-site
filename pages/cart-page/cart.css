@@ -94,13 +94,13 @@ main{
 }
 
 .cart-products .card-quantity {
-    font-size: 0.9rem;
-    padding-top: 0.25rem;
+    font-size: 14.4px;
+    padding-top: 4px;
 }
 
 .cart-products .minus, .cart-products .plus {
     font-weight: bold;
-    margin: 0 0.25rem;
+    margin: 0 4px;
     padding: 0 7px;
     border-radius: 50%;
     border: 1px solid var(--black);
@@ -108,20 +108,15 @@ main{
 }
 
 .cart-products .button {
-    margin-top: 0.5rem;
-    padding: 0.25rem;
+    margin-top: 8px;
+    padding: 8px;
     font-size: 1rem;
     width: 100%;
 }
 
-button {
-    cursor: pointer;
-    /* border: none; */
-}
-
 .button{
-    color: white;
-    border-radius: 0.25rem;
+    color: var(--white);
+    border-radius: 4px;
     margin: 0;
 }
 
@@ -133,14 +128,6 @@ button {
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     background-color: var(--white);
-}
-
-.cart-product .card-wrapper {
-    max-width: 100%;
-    border: 1px solid var(--primary-color);
-    background-color: inherit;
-    box-shadow: 2px 2px 5px 2px var(--off-white);
-    cursor: pointer;
 }
 
 .cart-transactions {
@@ -160,7 +147,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0;
+    padding: 8px 0;
 }
 
 .cart-transactions .price{
@@ -172,13 +159,13 @@ button {
 }
 
 .cart-transactions .discount-msg {
-    padding: 0.5rem 0;
+    padding: 8px 0;
     font-size: 1rem;
 }
 
 .cart-transactions button {
-    margin-top: 0.5rem;
-    padding: 0.25rem;
+    margin-top: 8px;
+    padding: 8px;
     font-size: 1rem;
     width: 100%;
     text-transform: uppercase;
