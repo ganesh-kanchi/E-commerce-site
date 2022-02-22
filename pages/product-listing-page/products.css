@@ -1,6 +1,6 @@
 .product-container{
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 19rem 1fr;
 }
 
 .product-sidebar {
@@ -65,7 +65,7 @@
 }
 
 .card-component{
-    max-width: 350px;
+    max-width: 22rem;
     height: max-content;
 }
 
@@ -76,14 +76,14 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 22rem;
     margin: 1rem;
     height: max-content;
-    border-radius: 0.25rem;
+    border-radius: 4px;
 }
 
 .products-menu > * {
-    margin: 0.5rem auto;
+    margin: 8px auto;
 }
 
 .card-w-dismiss > div {
@@ -104,7 +104,7 @@
     display: block;
     position: absolute;
     top: 10px;
-    right: 15px;
+    right: 1rem;
     font-size: 1.2rem;
     color: var(--text-secondary);
 }
@@ -114,7 +114,7 @@
 }
 
 .basic-card .card-heading, .basic-card .card-content {
-    padding: 0.5rem 0.5rem 0;
+    padding: 8px 8px 0;
 }
 
 .product-price {
