@@ -1,3 +1,7 @@
+@import url(https://lazylibrary.netlify.app/components.css);
+@import url(../../styles.css);
+@import url(../product-listing-page/products.css);
+
 .product-container{
     display: block;
     flex-grow: 1;
@@ -19,4 +23,5 @@
 .product-menu{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 1rem;
 }

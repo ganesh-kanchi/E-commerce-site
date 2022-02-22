@@ -33,47 +33,22 @@ main{
 
 }
 
-.cart-products .card-wrapper {
+.cart-products .card-component {
+    margin: 8px auto;
+    width: 95%;
     max-width: 100%;
-    border: 1px solid var(--primary-color);
     background-color: inherit;
     box-shadow: 2px 2px 5px 2px var(--off-white);
     cursor: pointer;
 }
 
-.card-wrapper{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    height: max-content;
+.cart-products .card-content {
+    margin-top: 8px;
 }
-
-.card-horizontal .row {
-    display: flex;
-  }
-  
-  .card-horizontal img {
-    width: 40%;
-  }
-  
-  .card-horizontal .card-content {
-    display: none;
-  }
 
   .cart-products img{
       max-width: 50%;
       object-fit: cover;
-  }
-
-  .card-img{
-      border-radius: 4px;
-      height: auto;
-  }
-
-  .cart-products .card-heading{
-      width: 100%;
-      padding: 0.75rem;
-      margin: 0;
   }
 
   .cart-products .card-content {
@@ -107,24 +82,32 @@ main{
     cursor: pointer;
 }
 
+.horizontal-card .card-content{
+    padding-right: 8px;
+}
+
+.horizontal-card .card-main-content .card-image{
+    border-radius: 4px 0 0 4px;
+}
+
 .cart-products .button {
-    margin-top: 8px;
+    margin: 8px 8px 0 0;
     padding: 8px;
     font-size: 1rem;
     width: 100%;
 }
 
-.button{
+.card-component .button{
     color: var(--white);
     border-radius: 4px;
-    margin: 0;
 }
 
 .button-primary {
     background-color: var(--primary-color);
+    color: var(--white);
 }
 
-.button-outline {
+.card-component .button-outline {
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     background-color: var(--white);
@@ -164,6 +147,7 @@ main{
 }
 
 .cart-transactions button {
+    margin: auto;
     margin-top: 8px;
     padding: 8px;
     font-size: 1rem;
